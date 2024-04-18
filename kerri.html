@@ -1,0 +1,2693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <title>Kerri</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+       
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+                                    /* Hero Section  Start */
+        .Hero{
+            width: 100%;
+            height: 720px;
+            border: 1px solid black;
+            /* padding: 1px; */
+            /* background-position-y: -200px; */
+           
+
+            animation-name: hero;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes hero {
+            
+        0%{
+            background-image: url(./header-bg.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            
+
+        }
+
+        60%{
+            background-image: url(./header-bg2.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        100%{
+            background-image: url(./header-bg3.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+
+            
+        }
+
+                                    /* Navbar Start */
+
+        .navbar{
+            width: 100%;
+            height: 100px;
+            border: px solid yellow;
+            padding: 1px;
+        }
+
+                                        /* logo */
+        .logo{
+
+            width: 200px;
+            height: 99px;
+            border: px solid black;
+            margin-left: 200px;
+            display: inline-block;
+            vertical-align: top;
+
+        }
+
+        .logoimg{
+            font-family: "Nunito", sans-serif;
+            width: 70px;
+            margin-top: 20px;
+            
+        }
+
+                                            /* list  */
+        .list{
+            width: 600px;
+            height: 99px;
+            border: px solid white;
+            padding: 1px ;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 350px;
+            
+            
+        }
+
+        .list ul{
+            list-style: none;
+        }
+
+        .list li{
+            font-family: "Nunito", sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 24px;
+            color: white;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 20px;
+            margin-left: 30px;
+            cursor: pointer;
+        }
+
+
+
+        .list li:hover{
+            color: #e65f78;
+        }
+
+        .hm{
+            color: #e65f78;
+        }
+
+                                                /* Navbar End */
+
+                                                /* Hero Contant Start */
+        .herocontent{
+            width: 700px;
+            height: 400px;
+            border: px solid white;
+            padding: 1px;
+            margin: auto;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .heroh1{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: white;
+            text-align: center;
+        }
+
+        .heroh1p2{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 700;
+            font-size: 54px;
+            line-height: 65px;
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .herop{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 29px;
+            color: #8f9496;
+            margin-left: 90px;
+            margin-right: 80px;
+            margin-top: 30px;
+        }
+        .b1{
+            font-family: "Nunito", sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            background: transparent;
+            border: 1px solid white;
+            color: white;
+            padding: 15px 45px;
+            border-radius: 25px;
+            margin-top: 40px;
+            
+        }
+
+
+        .herocontent button:hover{
+            background-color: #fff;
+            color: black;
+            cursor: pointer;
+        }
+
+        .mousediv{
+            width: 120px;
+            height: 100px;
+            border: px solid white;
+            margin: auto;
+            margin-top: 120px;
+
+        }
+
+
+        .mouseicon{
+            width: 100px;
+            color: white;
+            margin-top: 0px;
+
+            animation-name: mouseicon;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            
+        }
+
+            @keyframes mouseicon {
+
+                0%{
+                    margin-top: 0px;
+                }
+
+                20%{
+                    margin-top: -15px;
+                }
+
+                40%{
+                    margin-top: 0px;
+                }
+
+                60%{
+                    margin-top: -10px;
+                }
+
+                80%{
+                    margin-top: 0px;
+                }
+                
+            }
+
+                                        /* Hero Section End */
+
+                                        /* About Section Start */
+        .about-main{
+            width: 80%;
+            height: 640px;
+            border: px solid black;
+            margin: auto;
+            padding: 1px;
+        }
+
+                                            /* about picture */
+        .abpic{
+            width: 45%;
+            height: 400px;
+            border: 1px solid #cdcdcd;
+            margin-top: 150px;
+            margin-left: 50px;
+            border-radius: 5px;
+            display: inline-block;
+            vertical-align: top;
+
+        }
+
+        .abimg{
+            width: 100%;
+            height: 400px;
+            padding: 4px;
+        }
+                                          /* about content */
+        .abouthps{
+            width: 44%;
+            height: 400px;
+            border: px solid black;
+            padding: 1px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 150px;
+            margin-left: 15px;
+
+        }
+
+                                                /* about h1 */
+        .abouth1{
+            font-family: sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529;
+        }
+
+                                            /* about h1 span */
+        .abouth1s{
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529;
+        }
+
+                                                /* about h1 part 2 */
+        .abouth1p2{
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #212529;
+            margin-top: 30px;
+        }
+
+                                            /* about h1 span 2 */
+        .abouth1s2{
+            font-family: sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #e65f78; 
+           
+        }
+                                            /* aboutpara */
+        .aboutp{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 20px;
+        }
+
+                                                /* icon list */
+
+                                                /* icon 1 */
+        .icon1{
+            width: 42px;
+            height: 42px;
+            border: 1px solid #cdcdcd;
+            border-radius: 25px;
+            display: inline-block;
+            text-align: center;
+            padding: 1px;
+
+            /* .herocontent button:hover{
+            background-color: #fff;
+            color: black;
+            cursor: pointer;
+        } */
+        }
+          
+       .icon1:hover{
+        border: 2px solid #d8576f;
+        cursor: pointer;
+       }
+            
+        
+
+       
+            
+        
+
+        .tac{
+            margin-top: -0.5px;
+            font-size: 17px;
+            line-height: 38px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .icon1:hover .tac{
+            color: #d8576f;
+            cursor: pointer;
+            
+        }
+
+
+        
+                                                /* icon 2 */
+        .icon2{
+            width: 42px;
+            height: 42px;
+            border: 1px solid #cdcdcd;
+            border-radius: 25px;
+            display: inline-block;
+            margin-left: 10px;
+             text-align: center;
+        }
+
+        .icon2:hover{
+            border: 2px solid #d8576f;
+            cursor: pointer;
+        }
+
+        .fac{
+            margin-top: 1px;
+            font-size: 17px;
+            line-height: 38px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .icon2:hover .fac{
+            color: #d8576f;
+            cursor: pointer;
+        }
+
+                                               /* icon 3 */
+        .icon3{
+            width: 42px;
+            height: 42px;
+            border: 1px solid #cdcdcd;
+            border-radius: 25px;
+            display: inline-block;
+            margin-left: 10px;
+             text-align: center;
+        }
+
+        .icon3:hover{
+            border: 2px solid #d8576f;
+            cursor: pointer;
+        }
+
+        .lac{
+            margin-top: 1px;
+            font-size: 17px;
+            line-height: 38px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .icon3:hover .lac{
+            color: #d8576f;
+            cursor: pointer;
+        }
+
+
+                                               /* icon 4 */
+        .icon4{
+            width: 42px;
+            height: 42px;
+            border: 1px solid #cdcdcd;
+            border-radius: 25px;
+            display: inline-block;
+            margin-left: 10px;
+             text-align: center;
+        }
+
+        .icon4:hover{
+            border: 2px solid #d8576f;
+            cursor: pointer;
+        }
+
+        .tac2{
+            margin-top: 1px;
+            font-size: 17px;
+            line-height: 38px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .icon4:hover .tac2{
+            color: #d8576f;
+            cursor: pointer;
+        }
+        
+                                            /* About Section End */
+
+                                            /* Services Section Start */
+
+                                            /* main */
+
+        .Service{
+            width: 100%;
+            height: 1000px;
+            border: px solid black;
+            padding: 1px;
+            background-color: #f8f9fa;
+            
+        }
+
+                                            /* Heading And Para */
+
+        .hp{
+            width: 500px;
+            height: 300px;
+            border: px solid black;
+            text-align: center;
+            margin: auto;
+            padding: 1px;
+        }
+
+                                            /* service h1  */
+
+        .sh1{
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529;
+            margin-top: 120px;
+        }
+
+        .sh1span{
+            font-family: sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529;
+        }
+
+        .sp{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 30px;
+        }
+
+                                            /* boxes */
+
+                                            /* main-box */
+
+        .main-box{
+            width: 80%;
+            height: 650px;
+            border: px solid black;
+            margin: auto;
+            padding: 1px;
+        }
+
+                            /* boxGraphic */
+
+
+        .boxGraphic{
+            width: 32%;
+            height: 290px;
+            border: 1px solid #cdcdcd;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+                                        /* graphic icon */
+
+        .graphic{
+            font-size: 44px;
+            line-height: 44px;
+            color: #e65f78;
+            margin-top: 20px;
+        }
+
+                                                /* grahic heading */
+
+        .gh1{
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #212529;
+            margin-top: 20px;
+        }
+
+                                            /* line graphic */
+        .lineg{
+            width: 40px;
+            height: 2px;
+            background-color: #e65f78;
+            margin: auto;
+            transition: 1s;
+            margin-top: 20px;
+        }
+
+        .boxGraphic:hover .lineg{
+            width: 60px;
+        }
+            
+                                                /* Graphic Paragraph */
+        .gp{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+                         /* box Unlimited Color */
+
+
+        .boxUnlimited{
+            width: 32%;
+            height: 290px;
+            border: 1px solid #cdcdcd;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+
+        }
+
+                                                    /* Unlimited icon */
+
+        .Unlimited{
+            font-size: 44px;
+            line-height: 44px;
+            color: #e65f78;
+            margin-top: 20px;
+
+
+        }
+
+                                                /* Unlimited  heading */
+        .uh1{
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #212529;
+            margin-top: 20px;
+
+
+        }
+
+                                                /* line Unlimited  */
+        .lineu{
+            width: 40px;
+            height: 2px;
+            background-color: #e65f78;
+            transition: 1s;
+            margin: auto;
+            margin-top: 20px;
+
+          
+        }
+
+        .boxUnlimited:hover .lineu{
+            width: 60px;
+        }
+
+                                            /* Unlimited Paragraph */
+
+        .up{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+
+
+        }
+
+                                    /* Media Marketing box */
+        .boxMarketing{
+            width: 32%;
+            height: 290px;
+            border: 1px solid #cdcdcd;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+
+                                                /* marketing icon */
+        .marketing{
+            font-size: 44px;
+            line-height: 44px;
+            color: #e65f78;
+            margin-top: 20px;
+        }
+
+                                                /* Marketing Heading */
+        .mh1{
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #212529;
+            margin-top: 20px;
+ 
+        }
+                                            /* line Marketing */
+        .linem{
+            width: 40px;
+            height: 2px;
+            background-color: #e65f78;
+            transition: 1s;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .boxMarketing:hover .linem{
+            width: 60px;
+        }
+                                            /* Marketing Paragraph */
+        .mp{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+                            /* Unlimited Wifi */
+
+                                             /* boxwifi */
+        .boxwifi{
+            width: 32%;
+            height: 290px;
+            border: 1px solid #cdcdcd;
+            text-align: center;
+            margin-top: 30px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+                                                /* Wifi Icon */
+
+        .wifi{
+            font-size: 44px;
+            line-height: 44px;
+            color: #e65f78;
+            margin-top: 20px;
+        }
+
+                                                /* Wifi Heading */
+        .wh1{
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #212529;
+            margin-top: 20px;
+ 
+        }
+
+                                                /* line Wifi */
+
+        .linew{
+            width: 40px;
+            height: 2px;
+            background-color: #e65f78;
+            transition: 1s;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .boxwifi:hover .linew{
+            width: 60px;
+        }
+
+                                                /* Wifi Paragraph */
+        .wp{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+                        /* Responsive Design */
+
+        .boxrd{
+            width: 32%;
+            height: 290px;
+            border: 1px solid #cdcdcd;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+
+                                            /* RD Icon */
+        .rdicon{
+            font-size: 44px;
+            line-height: 44px;
+            color: #e65f78;
+            margin-top: 20px;
+        }
+
+                                        /* RD Heading */
+        .rdh1{
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #212529;
+            margin-top: 20px;
+        }
+                                            /* line RD */
+        .lineRD{
+            width: 40px;
+            height: 2px;
+            background-color: #e65f78;
+            transition: 1s;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .boxrd:hover .lineRD{
+            width: 60px;
+        }
+
+                                            /* RD Paragraph */
+        .RDp{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+                                /* Easy to customize */
+
+                                /* Box Easy to customize */
+
+
+
+
+                                                 /* boxetc */
+        .boxetc{
+            width: 32%;
+            height: 290px;
+            border: 1px solid #cdcdcd;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+                                                    /* etcicon */
+        .etcicon{
+            font-size: 44px;
+            line-height: 44px;
+            color: #e65f78;
+            margin-top: 20px;
+        }
+                                                    /* etc heading */
+        .etch1{
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #212529;
+            margin-top: 20px;
+        }
+
+                                                        /* etc line */
+        .etcline{
+            width: 40px;
+            height: 2px;
+            background-color: #e65f78;
+            transition: 1s;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .boxetc:hover .etcline{
+            width: 60px;
+        }
+
+
+
+                                                        /* etc Paragraph */
+        .etcp{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+
+                                    /* Service Section End */
+
+                                    /* Hire Section Start */
+
+        .hire-main{
+            width: 100%;
+            height: 300px;
+            border: px solid black;
+            padding: 1px;
+            text-align: center;
+
+        }
+
+                                        /* Hire Heading */
+
+        .hireh1{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529;
+            margin-top: 80px;
+        }
+
+                                        /* Hire Button */
+        .hb{
+            font-family: "Nunito", sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            color: white;
+            background-color: #d8576f;
+            padding: 16px 40px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+                                    /* Hire Section End */
+
+                                    /* Client Section Start */
+                    
+        .client-main{
+            width: 100%;
+            height: 750px;
+            border: px solid black;
+            padding: 1px;
+            background-color: #f8f9fa;
+        }
+
+                                    /* Heading and Paragraph */
+        .chp-main{
+            width: 500px;
+            height: 220px;
+            border: px solid black;
+            margin: auto;
+            padding-block-end: 1px;
+            text-align: center;
+
+        }
+
+                                        /* Heading h1 */
+        .ch1{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529;
+            margin-top: 70px;
+        }
+
+                                /* h1 span tag*/
+        .ch1span{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529; 
+        }
+
+                                        /* client Paragraph */
+        .cp{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 30px;
+        }
+
+                                            /* Testimonial */
+        .tes{
+            width: 730px;
+            height: 400px;
+            border: px solid black;
+            padding: 1px;
+            margin: auto;
+            text-align: center;
+        }
+
+                                            /* testimonial icon */
+
+        .ticon{
+            font-size: 50px;
+            line-height: 50px;
+            color: #e65f78;
+            
+        }
+
+                                            /* Testimonial Pic */
+
+        .tpic{
+            width: 110px;
+            height: 110px;
+            border: 1px solid #cdcdcd;
+            border-radius: 55px;
+            margin: auto;
+            margin-top: 30px;
+
+            animation-name: testimonial;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+            
+        }
+
+        @keyframes testimonial {
+
+            0%{
+               
+                background-image: url(./testi-1.jpg);
+            }
+
+            50%{
+               
+                background-image: url(./testi-2.jpg);
+            }
+
+            100%{
+                
+                background-image: url(./testi-3.jpg);
+            }
+            
+        }
+
+                                                /* testimonial Paragraph */
+
+        .tp{
+            font-family: "Nunito", sans-serif;
+            font-size: 18px;
+            color: gray;
+            margin-top: 30px;
+
+        }
+
+                                                /* testimonial Paragraph 2 */
+        .tp2{
+            font-family: "Nunito", sans-serif;
+            font-size: 16px;
+            color: black;
+            margin-top: 30px;
+        }
+
+        .tp2span{
+            font-family: "Nunito", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            color: black;
+            margin-top: 30px;
+        }
+
+                                        /* little lines */
+
+        .little-line{
+            width: 15px;
+            height: 6px;
+            background-color: #d8576f;
+            border-radius: 10px;
+            margin: auto;
+            margin-top: 20px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .little-line2{
+            width: 25px;
+            height: 6px;
+            background-color: #d8576f;
+            border-radius: 10px;
+            margin: auto;
+            margin-top: 20px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .little-line3{
+            width: 15px;
+            height: 6px;
+            background-color: #d8576f;
+            border-radius: 10px;
+            margin: auto;
+            margin-top: 20px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+                                /* Testimonial Section End  */
+
+                                /* Our Work Section Start  */
+
+        .ow-main{
+            width: 100%;
+            height: 980px;
+            border: px solid black;
+            margin: auto;
+            padding: 1px;
+            text-align: center;
+        }
+
+                                    /* Heading And Paragraph */
+
+        .owhp{
+            width: 500px;
+            height: 200px;
+            border: px solid black;
+            padding: 1px;
+            margin: auto;
+            margin-top: 100px;
+
+        }
+
+                                        /* ow heading */
+
+        .owh1{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529;
+        }
+
+                                        /* ow span tag */
+        .owspan{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529;
+        }
+
+                                    /* ow paragraph */
+
+        .owp{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 30px;
+        }
+
+                                        /* List */
+        .list1{
+            width: 600px;
+            height: 60px;
+            border: px solid black;
+            padding: 1px;
+            margin: auto;
+            
+        }
+
+        .listul{
+            list-style: none;
+
+        }
+
+        .liall{
+            font-family: "Nunito", sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+            display: inline;
+            margin-left: 60px;
+            cursor: pointer;
+            
+        }
+
+                                        /* ow boxes */
+        .ow-boxes{
+            width: 75%;
+            height: 550px;
+            border: px solid black;
+            margin: auto;
+            padding: 1px;
+            margin-top: 20px;
+        }
+
+                                    /* box 1 */
+
+        .ow-box1{
+            width: 30%;
+            height: 230px ;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: top;
+            
+        }
+
+        .owpic{
+            width: 100%;
+            height: 230px ;
+            border-radius: 10px;
+        }
+
+
+        
+                                    /* box 2 */
+
+        .ow-box2{
+            width: 30%;
+            height: 230px ;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+            
+        }
+
+        .owpic2{
+            width: 100%;
+            height: 230px ;
+            border-radius: 10px;
+        }
+
+                                        /* box 3 */
+        .ow-box3{
+            width: 30%;
+            height: 230px ;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+
+        .owpic3{
+            width: 100%;
+            height: 230px ;
+            border-radius: 10px; 
+        }
+
+                                            /* box 4 */
+        .ow-box4{
+            width: 30%;
+            height: 230px;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 30px;
+        }
+
+        .owpic4{
+            width: 100%;
+            height: 230px;
+            display: inline;
+            border-radius: 10px;
+          
+
+        }
+                                    /* box 5 */
+
+        .ow-box5{
+            width: 30%;
+            height: 230px;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+
+        .owpic5{
+            width: 100%;
+            height: 230px;
+            display: inline;
+            border-radius: 10px;
+        }
+
+        .ow-box6{
+            width: 30%;
+            height: 230px;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+
+        .owpic6{
+            width: 100%;
+            height: 230px;
+            display: inline;
+            border-radius: 10px;
+           
+        }
+
+                                        /*  Our Work Section End */
+
+                                        /* Blog Section Start */
+                        
+        .blog-main{
+            width: 100%;
+            height: 830px;
+            border: px solid black;
+            padding: 1px;
+            background-color: #f8f9fa;
+        }
+
+                                    /* blog heading and paragraph */
+        .bhp{
+            width: 500px;
+            height: 130px;
+            border: px solid black;
+            margin: auto;
+            padding: 1px;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+                                        /* blog h1 */
+        .bh1{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529;
+        }
+
+                                        /* blog span tag */
+
+        .bh1span{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529;
+        }
+        
+        .bp{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 20px;
+        }
+
+                                    /* Blog Boxes */
+
+                                        /* blog box */
+        .blogbox{
+            width: 75%;
+            height: 500px;
+            border: px solid black;
+            margin: auto;
+            padding: 1px;
+            
+
+        }
+
+                                        /* blog  box 1 */
+        .blogbox1{
+            width: 30%;
+            height: 460px;
+            background-color: #fff;
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: top;
+
+        }
+
+        .blog1pic{
+            width: 95%;
+            margin-top: 8px;
+            border-radius: 10px;
+            margin-left: 8px;
+        }
+
+        .bbh1{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #212529;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .bbh3{
+            
+            font-family: "Nunito", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #8f9496;
+            margin-top: 20px;
+            margin-left: 20px;
+           
+        }
+
+        .bbh3s{
+            font-family: "Nunito", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #d8576f;
+            
+        }
+
+        .blogp{
+            
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #8f9496;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .blogb{
+            
+            font-family: "Nunito", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: gray;
+            margin-left: 20px;
+            background: transparent;
+            border: none;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+                                /* Blog box 2 */
+
+
+
+        .blogbox2{
+            width: 30%;
+            height: 460px;
+            background-color: #fff;
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+
+        }
+
+        .blog2pic{
+            width: 95%;
+            margin-top: 8px;
+            border-radius: 10px;
+            margin-left: 8px;
+        }
+
+        .bbh12{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #212529;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .bbh32{
+            
+            font-family: "Nunito", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #8f9496;
+            margin-top: 20px;
+            margin-left: 20px;
+           
+        }
+
+        .bbh3s2{
+            font-family: "Nunito", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #d8576f;
+            
+        }
+
+        .blogp2{
+            
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #8f9496;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .blogb2{
+            
+            font-family: "Nunito", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: gray;
+            margin-left: 20px;
+            background: transparent;
+            border: none;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+                                    /* blog box 3 */
+
+        .blogbox3{
+            width: 30%;
+            height: 460px;
+            background-color: #fff;
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+
+        }
+
+        .blog3pic{
+            width: 95%;
+            margin-top: 8px;
+            border-radius: 10px;
+            margin-left: 8px;
+        }
+
+        .bbh13{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #212529;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .bbh33{
+            
+            font-family: "Nunito", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #8f9496;
+            margin-top: 20px;
+            margin-left: 20px;
+           
+        }
+
+        .bbh3s3{
+            font-family: "Nunito", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #d8576f;
+            
+        }
+
+        .blogp3{
+            
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #8f9496;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .blogb3{
+            
+            font-family: "Nunito", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: gray;
+            margin-left: 20px;
+            background: transparent;
+            border: none;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+                                    /* Blog Section End */
+
+                                    /* Contact Heading And Paragraph */
+
+        .contact-main{
+            width: 100%;
+            height: 900px;
+            border: px solid black;
+            padding: 1px;
+            
+
+        }
+
+                                        /* Contact Heading And Paragraph */
+        .chp{
+            width: 500px;
+            height: 130px;
+            border: px solid black;
+            margin: auto;
+            padding-block-end: 1px;
+            margin-top: 130px;
+            text-align: center;
+        }
+
+        .conh1{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529;
+        }
+
+        .conh1span{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529;
+        }
+
+        
+        .conp{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 20px;
+        }
+
+                                /* Contact Icon Heading And Paragraph */
+
+        .conihp{
+            width: 70%;
+            height: 150px;
+            border: px solid black;
+            margin: auto;
+        }
+
+                                /* conp1 */
+        .conp1{
+            width: 150px;
+            height: 130px;
+            border: px solid black;
+            padding: 1px;
+           
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 0px;
+            text-align: center;
+        }
+
+        .phicon{
+            font-size: 40px;
+            line-height: 40px;
+            color: #e65f78;
+            
+            
+        }
+
+        .conbh1{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #212529;
+            margin-top: 15px;
+        }
+
+        .conbp{
+            
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 5px;
+        }
+
+                                    /* conp1 box 2 */
+
+                                    /*con part 2 box  */
+        .conp2{
+            width: 250px;
+            height: 130px;
+            border: px solid black;
+            padding: 1px;
+            margin-left: 50px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 200px;
+            text-align: center;
+        }
+
+                                    /* con icon  */
+        .phicon2{
+            font-size: 40px;
+            line-height: 40px;
+            color: #e65f78;
+        }
+
+                                    /* con heading */
+
+        .conbh2{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #212529;
+            margin-top: 15px;
+        }
+
+                                        /*con paragraph  */
+
+        .conbp2{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 5px;
+        }
+
+                                                /* conp1 box 3 */
+        .conp3{
+            width: 250px;
+            height: 130px;
+            border: px solid black;
+            padding: 1px;
+            margin-left: 50px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 200px;
+            text-align: center;
+        }
+
+                                        /* con icon 3 */
+        .phicon3{
+            font-size: 40px;
+            line-height: 40px;
+            color: #e65f78;
+        }
+
+                                        /* con Heading */
+
+        .conbh3{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #212529;
+            margin-top: 15px;
+        }
+
+                                    /* con paragraph */
+
+        .conbp3{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: gray;
+            margin-top: 5px;
+        }
+
+                                    /* contact Form Section Start */
+
+                                    /* form-main */
+
+        .form-main{
+            width: 80%;
+            height: 400px;
+            border: px solid black;
+            margin: auto;
+            padding: 1px;
+        }
+                                        /* ft */
+        .ft{
+            
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #212529;
+            width: 49%;
+            height: 50px;
+            border: 1px solid #cdcdcd;
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+
+                                    /* fm */
+        .fm{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #212529;
+            width: 49%;
+            height: 50px;
+            border: 1px solid #cdcdcd;
+            padding: 10px;
+            border-radius: 5px;
+            margin-left: 20px;
+        }
+                                /* fs */
+        .fs{
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #212529;
+            width: 100%;
+            height: 50px;
+            border: 1px solid #cdcdcd;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .ftextarea{
+            font-family: "Nunito", sans-serif;
+            margin-top: 20px;
+            height: 150px;
+            padding: 20px;
+            width: 100%;
+            border: 1px solid #cdcdcd;
+            
+            
+
+        }
+
+        .fbutton{
+            
+            font-family: "Nunito", sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            color: white;
+            background-color: #d8576f;
+            padding: 15px 30px;
+            border-radius: 10px;
+            margin-left: 1032px;
+            margin-top: 20px;
+        }
+
+                                        /* Form Section End */
+
+                                        /* Contact Us Section End */
+
+
+                                        /* Footer Section Start */
+
+        .footer-main{
+            width: 100%;
+            height: 250px;
+            background-color: #0a0a0a;
+            padding: 1px;
+
+        }
+
+                                        /* footer-icon */
+        .footer-icon{
+            width: 400px;
+            height: 200px;
+            border: px solid white;
+            margin: auto;
+            padding: 1px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .fbox{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(57, 57, 57);
+            text-align: center;
+            border-radius: 25px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 50px;
+            
+
+        }
+
+        .footerf{
+            font-size: 20px;
+            color: #c9c8c8;
+            margin-top: 15px;
+        }
+
+        .footerf:hover{
+            color: #d8576f;
+            cursor: pointer;
+        }
+
+        .linkdinbox{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(57, 57, 57);
+            text-align: center;
+            border-radius: 25px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 50px;
+            margin-left: 10px;
+
+        }
+
+        .footerl{
+            font-size: 20px;
+            color: #c9c8c8;
+            margin-top: 15px;
+        }
+
+        .footerl:hover{
+            color: #d8576f;
+            cursor: pointer;
+        }
+
+        .pinetrestbox{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(57, 57, 57);
+            text-align: center;
+            border-radius: 25px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 50px;
+            margin-left: 10px;
+
+        }
+
+        .footerp{
+            font-size: 20px;
+            color: #c9c8c8;
+            margin-top: 15px;
+        }
+
+        .footerp:hover{
+            color: #d8576f;
+            cursor: pointer;
+        }
+
+        .twitterbox{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(57, 57, 57);
+            text-align: center;
+            border-radius: 25px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 50px;
+            margin-left: 10px;
+        }
+
+        .footert{
+        font-size: 20px;
+        color: #c9c8c8;
+        margin-top: 15px;
+
+        }
+
+        .footert:hover{
+            color: #d8576f;
+            cursor: pointer;
+        }
+
+        .footerpa{
+            
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #ababab;
+            margin-top: 10px;
+        }
+
+
+
+       
+        
+                        
+
+        
+
+    </style>
+
+
+
+</head>
+<body>
+                                    <!-- Hero Section  Start-->
+
+    <div class="Hero">
+                                    <!-- Navbar Start -->
+
+        <div class="navbar">
+                                        <!-- logo -->
+            
+
+            <div class="logo">
+
+                <img class="logoimg" src="./logo.png" alt="">
+
+            </div>
+
+            <div class="list">
+                <ul>
+                    <li class="hm">Home</li>
+                    <li>  About</li>
+                    <li>Services</li>
+                    <li> Client</li>
+                    <li> Portfolio</li>
+                    <li> Blog</li>
+                    <li> Contact</li>
+
+                </ul>
+            </div>
+
+         </div>
+
+                                            <!-- Navbar End -->
+
+                                            <!-- Hero Contant Start -->
+
+        <div class="herocontent">
+
+            <h1 class="heroh1">Welcome</h1>
+            <h1 class="heroh1p2">I'M A Graphic Designer</h1>
+            <p class="herop">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+            
+            <button class="b1">Download CV</button>
+
+            <div class="mousediv">
+                <img class="mouseicon" src="./1214978_mouse_scroll_icon-new.png" alt="">
+            </div>
+
+         </div>
+
+     </div>
+
+                                            <!-- Hero Section End -->
+
+                                            <!-- About Section Start -->
+    <div class="about-main">
+                                                <!-- about picture -->
+        <div class="abpic">
+
+            <img class="abimg" src="./about.jpg" alt="">
+
+         </div>
+
+                                                <!-- about content -->
+
+        <div class="abouthps">
+
+                                                <!-- about h1 and span -->
+            <h1 class="abouth1">About <span class="abouth1s">Me</span></h1>
+
+            <h1 class="abouth1p2">Hello! <span class="abouth1s2">I'M Kerri Deo.</span></h1>
+
+            <p class="aboutp">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <br> <br>
+
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. <br> <br>
+                
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. <br> <br></p>
+
+                                    <!-- icon list -->
+
+                                    <!-- icon 1 -->
+            <div class="icon1">
+                <i  class="fa-brands fa-dribbble tac"></i>
+
+             </div>
+
+
+                                 <!-- icon 2 -->
+            <div class="icon2">
+
+                <i class="fa-brands fa-facebook-f fac"></i>
+
+             </div>
+
+
+                              <!-- icon 3 -->
+
+            <div class="icon3">
+                <i class="fa-brands fa-linkedin-in lac"></i>
+                
+            </div>
+
+
+
+                          <!-- icon 4 -->
+
+            <div class="icon4">
+                <i class="fa-brands fa-twitter tac2"></i>
+                            
+            </div>
+
+            
+
+        </div>
+
+     </div>
+
+                                <!-- About Section End -->
+
+                                <!-- Services Section Start -->
+
+                                <!-- main -->
+
+    <div class="Service">
+
+                                    <!-- Heading And Para -->
+
+        <div class="hp">
+
+                                    <!-- service h1 -->
+
+            <h1 class="sh1">Our <span class="sh1span">Services</span></h1>
+
+            <p class="sp">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+
+
+         </div>
+
+                                    <!-- boxes -->
+        <div class="main-box">
+
+                                        <!-- boxGraphic -->
+
+            <div class="boxGraphic">
+
+                                            <!-- graphic icon -->
+
+                <i class="fa-solid fa-chart-line graphic"></i>
+
+                                            <!-- grahic heading -->
+
+                <h1 class="gh1">Graphic Design</h1>
+
+                                            <!-- line graphic -->
+
+                <div class="lineg"></div>
+
+                                            <!--Graphic Paragraph  -->
+
+                <p class="gp">There are many variations of passages of but the majority have suffered alteration in some form.</p>
+
+
+
+
+             </div>
+
+
+                                            <!-- box Unlimited Color -->
+
+            <div class="boxUnlimited">
+
+                                            <!-- Unlimited icon -->
+            <i class="fa-solid fa-mug-hot Unlimited"></i>
+
+                                            <!-- Unlimited  heading -->
+            
+            <h1 class="uh1">Unlimited Color</h1>
+             
+
+                                            <!-- line Unlimited -->
+            <div class="lineu"></div>
+               
+
+                                            <!--Unlimited Paragraph  -->
+            <p class="up">There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                
+
+
+
+
+            </div>
+
+                            
+                            <!-- Media Marketing box -->
+
+            <div class="boxMarketing">
+
+                                            <!-- Marketing Icon -->
+
+            <i class="fa-solid fa-cloud-arrow-up marketing"></i>
+
+                                            <!-- Marketing Heading -->
+            <h1 class="mh1">Media Marketing</h1>
+
+                                            <!-- line Marketing -->
+            <div class="linem"></div>
+
+                                                <!-- Marketing Paragraph -->
+            <p class="mp">There are many variations of passages of but the majority have suffered alteration in some form.</p>
+
+             </div>
+
+
+                            <!-- Unlimited Wifi -->
+
+                            <!-- box wifi -->
+
+            <div class="boxwifi">
+
+                                                <!-- Wifi Icon -->
+                <i class="fa-regular fa-copy wifi"></i>
+
+                                                <!-- Wifi Heading -->
+                <h1 class="wh1">Unlimited Wifi</h1>
+
+                                                <!-- line Wifi -->
+                <div class="linew"></div>
+
+                                                    <!-- Wifi Paragraph -->
+                <p class="wp">There are many variations of passages of but the majority have suffered alteration in some form.</p>
+
+
+            </div>
+
+                            <!-- Responsive Design -->
+
+                            <!-- box Responsive Design -->
+            
+            <div class="boxrd">
+                                        <!-- RD Icon -->
+
+                <i class="fa-regular fa-pen-to-square rdicon"></i> 
+
+                                                    <!-- RD Heading -->
+                <h1 class="rdh1">Responsive Design</h1>
+
+                                                    <!-- line RD -->
+                <div class="lineRD"></div>
+
+                                                    <!-- RD Paragraph -->
+                <p class="RDp">There are many variations of passages of but the majority have suffered alteration in some form.</p>
+
+
+
+
+             </div>
+
+                                <!-- Easy to customize -->
+
+                                <!-- Box Easy to customize -->
+
+                                <!-- boxetc -->
+
+            <div class="boxetc">
+                
+                                            <!-- etc icon  -->
+
+                <i class="fa-solid fa-code etcicon"></i>
+
+                                            <!-- etc heading -->
+
+                <h1 class="etch1">Easy to customize</h1>
+
+                                            <!-- etc line -->
+                <div class="etcline"></div>
+
+                                            <!-- etc Paragraph -->
+                <p class="etcp">There are many variations of passages of but the majority have suffered alteration in some form.</p>
+
+
+
+
+            </div>
+
+
+
+            
+         </div>
+
+
+
+            
+
+     </div>
+
+                                <!-- Service Section End -->
+
+                                <!-- Hire Section Start -->
+
+    <div class="hire-main">
+
+                                    <!-- Hire Heading -->
+
+        <h1 class="hireh1">I Am Available For Freelancer.</h1>
+
+                                        <!-- Hire Button -->
+
+        <button class="hb">HIRE ME!</button>
+
+     </div>
+
+                                    <!-- Hire Section End -->
+
+                                    <!-- Client Section Start -->
+
+    <div class="client-main">
+
+                                    <!-- Heading and Paragraph -->
+
+        <div class="chp-main">
+
+                                    <!-- Heading h1 -->
+
+            <h1 class="ch1">Our <span class="ch1span">Client</span></h1>
+
+                                    <!--client  Paragraph -->
+
+            <p class="cp">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+
+
+         </div>
+
+                                    <!-- Testimonial Section Start -->
+
+        <div class="tes"> 
+
+                                        <!-- testimonial icon -->
+                    
+            <i class="fa-solid fa-quote-left ticon"></i>
+
+                                        <!-- Testimonial Pic -->
+
+            <div class="tpic"></div>
+
+                                        <!-- testimonial Paragraph -->
+
+            <p class="tp">"The poiny of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+
+            <p class="tp2">- Ebony verty,<span class="tp2span"> Envato</span></p>
+
+
+            <div class="little-line"></div>
+            <div class="little-line2"></div>
+            <div class="little-line3"></div>
+
+        
+        
+         </div>
+
+
+     </div>
+
+                                <!-- Testimonial Section End -->
+
+                                <!-- Our Work Section Start  -->
+
+    <div class="ow-main">
+                                <!-- Heading And Paragraph -->
+
+        <div class="owhp">
+
+                                    <!-- ow heading -->
+
+            <h1 class="owh1">Our <span class="owspan">Works</span></h1>
+
+            <p class="owp">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+
+
+
+         </div>
+
+                            <!-- List -->
+        <div class="list1">
+
+            <ul class="listul">
+                <li class="liall">All</li>
+                <li class="liall" >SEO</li>
+                <li class="liall" >WEBDESIGN</li>
+                <li class="liall" >WORK</li>
+                <li class="liall" >WordPress</li>
+    
+            </ul>
+            
+
+
+         </div>
+
+                                <!-- ow boxes  -->
+        <div class="ow-boxes">
+
+                                    <!-- box 1 -->
+
+            <div class="ow-box1">
+
+                <img class="owpic" src="./1.jpg" alt="">
+
+             </div>
+             
+                                <!-- box 2 -->
+
+        <div class="ow-box2">
+
+            <img class="owpic2" src="./2.jpg" alt="">
+
+
+          </div>
+
+                                    <!-- box 3 -->
+        <div class="ow-box3">
+
+            <img class="owpic3" src="./3.jpg" alt="">
+
+         </div>
+
+                                    <!-- box 4 -->
+
+        <div class="ow-box4">
+
+            <img class="owpic4" src="./4.jpg" alt="">
+
+
+         </div>
+
+                                    <!-- box 5 -->
+        <div class="ow-box5">
+
+            <img class="owpic5" src="./5.jpg" alt="">
+        
+         </div>
+
+                                    <!-- box 6 -->
+
+        <div class="ow-box6">
+
+            <img class="owpic6" src="./6.jpg" alt="">
+
+
+         </div>
+
+        
+
+             
+
+
+         </div>
+
+        
+
+
+    </div>
+
+                                <!--  Our Work Section End -->
+
+                                <!-- Blog Section Start -->
+
+    <div class="blog-main">
+
+                                    <!-- blog heading and paragraph -->
+
+        <div class="bhp">
+
+                                    <!-- blog h1 -->
+
+            <h1 class="bh1">Our <span class="bh1span">Blog</span></h1>
+
+            <p class="bp">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+
+
+         </div>
+
+                                        <!-- Blog Boxes -->
+
+        <div class="blogbox">
+
+                                        <!-- blog box 1 -->
+
+            <div class="blogbox1">
+
+                <img class="blog1pic" src="./blog-1.jpg" alt="">
+
+                <h1 class="bbh1">There are many variations</h1>
+
+                <h3 class="bbh3">11 March 2018 <span class="bbh3s">By Kerri</span></h3>
+
+                <p class="blogp">Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.</p>
+
+                <button class="blogb">Read More</button>
+
+            </div>
+
+                                                 <!-- blog box 2 -->
+
+            <div class="blogbox2">
+
+                <img class="blog2pic" src="./blog-2.jpg" alt="">
+
+                <h1 class="bbh12">Contrary to popular belief</h1>
+
+                <h3 class="bbh32">11 March 2018 <span class="bbh3s2">By Kerri</span></h3>
+
+                <p class="blogp2">Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.</p>
+
+                <button class="blogb2">Read More</button>
+
+            </div> 
+
+                                        <!-- blog box 3 -->
+
+            <div class="blogbox3">
+
+                <img class="blog3pic" src="./blog-3.jpg" alt="">
+                            
+                <h1 class="bbh13">Lorem Ipsum is not simply</h1>
+                            
+                <h3 class="bbh33">11 March 2018 <span class="bbh3s2">By Kerri</span></h3>
+                            
+                <p class="blogp3">Sit sagittis vulputate laoreet sodales tortor nulla lobortis bibendum netus primis fames. Lobortis ultricies.</p>
+                            
+                <button class="blogb3">Read More</button>
+                            
+            </div>
+
+
+         </div>
+
+
+     </div>
+
+                                <!-- Blog Section End -->
+
+                                    <!-- Contact Us Section Start -->
+
+    <div class="contact-main">
+
+                                    <!-- Contact Heading And Paragraph -->
+
+        <div class="chp">
+
+            <h1 class="conh1">Contact <span class="conh1span">Us</span></h1>
+
+            <p class="conp">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+
+
+         </div>
+
+                                            <!-- Contact Icon Heading And Paragraph -->
+
+        <div class=conihp>
+
+                                        <!-- conp1 box 1 -->
+
+            <div class="conp1">
+
+                <i class="fa-solid fa-phone phicon"></i>
+
+                <h1 class="conbh1">Call Us On</h1>
+
+                <p class="conbp">+985 123 7856</p>
+            </div>
+
+                                        <!-- conp1 box 2 -->
+
+
+            <div class="conp2">
+                                            
+                                    <!-- con icon  -->
+
+                <i class="fa-regular fa-envelope phicon2"></i>
+
+                                    <!-- con heading -->
+                            
+                <h1 class="conbh2">Email Us At</h1>
+
+                                    <!-- con paragraph -->
+                            
+                <p class="conbp2">Website.Kerri@gmail.com</p>
+            </div>
+
+                                        <!-- conp1 box 3 -->
+
+            <div class="conp3">
+                                            
+                                            <!-- con icon  -->
+        
+               
+                <i class="fa-solid fa-location-dot phicon3"></i>
+        
+                                            <!-- con heading -->
+                                    
+                <h1 class="conbh3">Visit Office</h1>
+        
+                                            <!-- con paragraph -->
+                                    
+                <p class="conbp3">202, Grasselli Street , Conway.</p>
+            </div>
+            
+
+         </div> 
+
+                                    <!--  contact Form  Section Start -->
+
+                                    <!-- form-main -->
+
+        <div class="form-main">
+
+            <input class="ft" type="text" placeholder="Your name...">
+
+            <input class="fm" type="email" placeholder="Your email">
+
+            <input class="fs" type="text" placeholder="Your Subject">
+
+            <textarea class="ftextarea" name="" id="" rows="10">Your message</textarea>
+
+            <button class="fbutton">SEND MESSAGE</button>
+
+         </div>
+
+         
+                            <!-- Form Section End -->
+                            
+                            
+                            
+    </div>
+                        
+                        <!-- Contact Us Section End -->
+
+                        <!-- Footer Section Start -->
+
+    <div class="footer-main">
+
+                                    <!-- footer-icon -->
+
+        <div class="footer-icon">
+
+            <div class="fbox">
+                <i class="fa-brands fa-facebook-f footerf"></i>
+            </div>
+
+            <div class="linkdinbox">
+                
+                <i class="fa-brands fa-linkedin-in footerl"></i>
+            </div>
+
+            <div class="pinetrestbox">
+              
+                <i class="fa-brands fa-pinterest-p footerp"></i>
+            </div>
+
+            <div class="twitterbox">
+             
+                <i class="fa-brands fa-twitter footert"></i>
+            </div>
+
+            <p class="footerpa">2024 © Kerri. Design by SRBThemes.</p>
+
+
+         </div>
+
+       
+
+        
+
+
+    
+    
+     </div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+font-family: "Montserrat Alternates", sans-serif;
+
+
+            font-family: "Nunito", sans-serif;
+
+
+					When select parent then child hover		
+
+				 .boxGraphic:hover .lineg{
+            width: 60px;
+
+
+
+
+				.list li:hover{
+            				color: #e65f78;
+        			}
